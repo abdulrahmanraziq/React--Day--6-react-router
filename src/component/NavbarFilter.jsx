@@ -14,7 +14,7 @@ function NavbarFilter() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto  w-100 justify-content-center">
           <NavLink 
-              to="/all" 
+              to="/" 
               className={({ isActive }) => isActive ? 'text-uppercase fw-bold custom-text active' : 'text-uppercase fw-bold custom-text'}
             >
               All
